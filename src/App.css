@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.AlreadyClick {
+  background-color: silver;
+  cursor: initial;
+}
+
+.Title {
+  font-size: 2em;
+  text-align: center;
+}
+
+.Riddle, #Answer {
+  text-align: center;
+  margin: 2% 0 2% 0;
+}
+
+#Keyboard {
+  padding: 0 10% 0 10%;
+  text-align: center;
+  background-color: white;
+}
+
+#Keyboard button {
+  margin: 1%;
+}
+
+.Reload {
+  position: absolute;
+  bottom: 2%;
+  z-index: -5000;
+}
+
+.Reload button {
+  background-color: grey;
+  color: white;
+}
+
+.Reload button:hover {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
